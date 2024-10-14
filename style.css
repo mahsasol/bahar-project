@@ -1,0 +1,29 @@
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+@import url(fontawesome-free-6.6.0-web/less/_variables.less);
+#navbar-nav {
+    position: sticky;
+    
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to left,#a517ba ,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    height: 75px;
+    padding: 5px 80px;
+    margin-right: 100px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #fff;
+}
